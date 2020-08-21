@@ -1,0 +1,87 @@
+header, nav, main, footer {display: block; }
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+header 
+	{ height: 200px;
+	  background-color: #f1f1f1;
+	  background-repeat: no-repeat;	  
+	  background-position: center;
+	  background-image: url(fhlink.png);
+	  background-size: 300px; }
+
+body 
+	{ background-color: #fff;
+	  margin: auto; }
+
+#wrapper
+	{ width: auto;
+	  height: auto;
+	  margin: auto; }
+	  
+ul
+	{ list-style-type: none;
+	  text-align: center;
+	  margin: auto; }
+
+	  
+	
+.links li 
+	{ display: inline-block;
+	  list-style-type: none;
+	  background-color: #fff;
+	  padding: 50px;
+	  margin: auto; } 
+	
+			
+					
+footer 
+	{ color: #000;
+	  text-align: center;
+	  background-color: #f1f1f1;
+	  font-family: raleway;
+	  font-size: .80em;
+	  padding:15px;
+	  clear: both;
+	   }
+	  
+	  
+footer a:link { color: #000; }
+footer a:visited { color: #000; }
+footer a:hover { color: #000; }
+
+
+
+
+
+
+#mobile {display: inline; }
+#desktop {display: none; }
+
+
+@media only screen and (max-width: 1024px) {
+	body {margin: 0; }
+	#wrapper {width: auto; }
+	main {margin-left: 0; }
+	nav {float: none; width: auto; }
+	nav li {display: inline-block; padding: 0.5em; }
+	nav ul {text-align: center; }
+	nav a {border-style: none; }
+	h1, h2 {font-size: 120%; }
+	p {font-size: 90%; }
+	
+}
+	
+	 
+@media only screen and (max-width: 768px) {
+	h1, h2 {font-size: 100%; }
+	p {font-size: 90%; }
+	figure {display: none; }
+	nav, nav ul, nav li {padding: 0; }
+	nav a {display: block; padding: 0.5em 0;
+		   border-bottom: 2px ridge #00005D; }
+		   
+}
+
+
+
+	  
